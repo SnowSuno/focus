@@ -52,10 +52,12 @@
         const min = parseInt((time / 60).toString()).toString().padStart(2, '0');
         const sec = (time % 60).toString().padStart(2, '0');
         el.innerText = min + ' : ' + sec;
-        time --;
 
-        if (time > 0) {
+        if (time >= 0) {
+            time --;
             setTimeout(updateTimer, 1000);
+        } else {
+            el.innerText = '';
         }
     }
 
