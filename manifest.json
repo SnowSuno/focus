@@ -1,5 +1,7 @@
 {
  "name": "Focus Timer",
+ "short_name": "Focus Timer",
+ "description": "10 minute simple focus timer",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
@@ -37,5 +39,8 @@
    "type": "image\/png",
    "density": "4.0"
   }
- ]
+ ],
+ "display": "fullscreen",
+ "theme_color": "#000000",
+ "background_color": "#000000"
 }
